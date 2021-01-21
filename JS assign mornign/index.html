@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Assignment 1</title>
+
+    <script src="manipulate.js"></script>
+
+</head>
+<body>
+
+    <h2>Enter a number to get prime factors</h2>
+    <input type="text" placeholder="Enter a number" id="prime_factors" value="">
+    <button onclick="myFunction()">Submit</button>
+    <p id="prime_factors1"></p>>
+
+
+    <h2>Enter a string to see changes in lowercase and uppercase</h2>
+    <input type="text" placeholder="Enter a string" id="low_upp" value="">
+    <button onclick="low_upp()">Submit</button>
+    <p id="here_low_upp"></p>>
+    <p id="here_low_upp1"></p>>
+
+    
+    <h2>Enter a number to check all digits are same or not</h2>
+    <input type="text" placeholder="Enter a number" id="same_or_not" value="">
+    <button onclick="same_or_not()">Submit</button>
+    <p id="same_or_not1"></p>>
+
+
+    
+    <h2>Enter a string full of numbers to get the sum</h2>
+    <input type="text" placeholder="Enter a number" id="sum" value="">
+    <button onclick="sum()">Submit</button>
+    <p id="sum1"></p>>
+    
+
+    <br/>
+    <br/>
+    <br/>
+    <h1>Now fill a form</h1>
+
+    <form action="#" onsubmit="return false" >
+    
+    <input type="text" id="firstname" placeholder="Enter first name" required>
+    <input type="text" id="secondname" placeholder="Enter second name" required>
+    <br/>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+
+    <br/>
+
+    <label for="cars">Choose a car:</label>
+
+    <select required id="car_selected"> 
+            <option value="">None</option> 
+            <option value="audi">audi</option> 
+            <option value="jaguar">jaguar</option> 
+            <option value="tata">tata</option> 
+            <option value="honda">honda</option> 
+    </select> 
+
+    <input type="text" placeholder="Enter your email-id" id="emailid" value="" required> 
+
+    <br/>
+
+    <button onclick="formsubmit()">Submit</button>
+    <p id="formsub"></p>
+    
+</form>
+
+
+    
+</body>
+</html>
