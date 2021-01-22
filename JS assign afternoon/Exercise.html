@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Exercise 1</title>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <h4>Enter the input:</h4><input type="text" id="inputTxt" placeholder="Enter something">
+    </div>
+
+    <h4><span id="geterror"></span></h4>
+
+    <br>
+    <button onclick="callFunction()">Submit</button>
+    <hr>
+    <h4>Length Of the Input: <span id="lengthOp"></span></h4>
+    <br>
+    <h4>UpperCase Of the Input: <span id="ucOp"></span></h4>
+    <br>
+    <h4>LowerCase Of the Input: <span id="lcOp"></span></h4>
+    <br>
+    <h4>Vowels and Consonants Of the Input: <span id="vowcon"></span></h4>
+
+
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <p>Lets fill a form</p>
+
+    <form action="#" onsubmit="return false" >
+    
+        <input type="text" id="firstname" placeholder="Enter first name" required>
+        <input type="text" id="secondname" placeholder="Enter second name" required>
+        <br/>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <br/>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    
+        <br/>
+    
+        <input type="text" placeholder="Enter your roll-number" id="roll-number" value="" required> 
+    
+        <br/>
+
+        <input type="text" placeholder="Enter your age" id="age" value="" required> 
+
+        <br/>
+     
+        <button onclick="formsubmit()">Submit</button>
+        
+        
+        
+
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    
+
+
+    <input type="text" placeholder="Enter your roll no" id="getdetails" value="" required> 
+    <button onclick="find_details()">Click here to get details of student with roll-no</button>
+    <br/>
+    <span id="put">Details are:</span>
+
+
+
+</body>
+
+</html>
